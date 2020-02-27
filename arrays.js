@@ -14,3 +14,8 @@ function addElementToEndOfArray(array, element){
   // array.unshift(element)
   return array.concat([element])
 }
+
+function (array, element){
+  array.push(element)
+  return array
+}
