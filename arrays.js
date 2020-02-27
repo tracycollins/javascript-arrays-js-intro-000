@@ -15,7 +15,7 @@ function addElementToEndOfArray(array, element){
   return array.concat([element])
 }
 
-function destructivelyAddElementToBeginningOfArray(array, element){
-  array.unshift(element)
+function destructivelyAddElementToEndOfArray(array, element){
+  array.push(element)
   return array
 }
