@@ -34,3 +34,13 @@ function removeElementFromBeginningOfArray(array, index){
   newArray.shift()
   return newArray
 }
+
+function destructivelyRemoveElementFromBeginningOfArray(array, index){
+  array.shift()
+  return array
+}
+
+function destructivelyRemoveElementFromEndOfArray(array, index){
+  array.pop()
+  return array
+}
